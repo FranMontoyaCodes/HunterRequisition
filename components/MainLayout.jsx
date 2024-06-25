@@ -28,7 +28,7 @@ const MainLayout = ({ children }) => {
           <ul>
             <li className="flex justify-start items-center hover:bg-blue-200 hover:text-blue-800-rounded-px5 p-2">
               <MdRequestQuote className="mr-2" />
-              <Link href="/Inbox">Requests</Link>
+              <Link href="/">Requests</Link>
             </li>
 
             <li className="flex justify-start items-center hover:bg-blue-200 hover:text-blue-800-rounded-px5 p-2">
@@ -38,12 +38,12 @@ const MainLayout = ({ children }) => {
 
             <li className="flex justify-start items-center hover:bg-blue-200 hover:text-blue-800-rounded-px5 p-2">
               <MdOutlineUpdate className="mr-2" />
-              <Link href="/URequest">Update Request</Link>
+              <Link href="/">Update Request</Link>
             </li>
 
             <li className="flex justify-start items-center hover:bg-blue-200 hover:text-blue-800-rounded-px2 p-2">
               <GrValidate className="mr-2" />
-              <Link href="/Validation">Request Validation</Link>
+              <Link href="/">Request Validation</Link>
             </li>
 
             <li className="flex justify-start items-center hover:bg-blue-200 hover:text-blue-800-rounded-px2 p-2">
@@ -63,17 +63,7 @@ const MainLayout = ({ children }) => {
 
             <li className="flex justify-start items-center hover:bg-blue-200 hover:text-blue-800-rounded-px5 p-2">
               <BsDatabaseFillLock className="mr-2" />
-              <Link href="/Admin">DB</Link>
-            </li>
-
-            <li className="flex justify-start items-center hover:bg-blue-200 hover:text-blue-800-rounded-px5 p-2">
-              <BsDatabaseFillLock className="mr-2" />
-              <Link href="/Category">Category</Link>
-            </li>
-
-            <li className="flex justify-start items-center hover:bg-blue-200 hover:text-blue-800-rounded-px5 p-2">
-              <BsDatabaseFillLock className="mr-2" />
-              <Link href="/Suppliers">Suppliers</Link>
+              <Link href="/">DB</Link>
             </li>
           </ul>
         </aside>
