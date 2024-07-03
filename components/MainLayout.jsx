@@ -28,7 +28,7 @@ const MainLayout = ({ children }) => {
           <ul>
             <li className="flex justify-start items-center hover:bg-blue-200 hover:text-blue-800-rounded-px5 p-2">
               <MdRequestQuote className="mr-2" />
-              <Link href="/">Requests</Link>
+              <Link href="/Inbox">Requests</Link>
             </li>
 
             <li className="flex justify-start items-center hover:bg-blue-200 hover:text-blue-800-rounded-px5 p-2">
@@ -38,12 +38,12 @@ const MainLayout = ({ children }) => {
 
             <li className="flex justify-start items-center hover:bg-blue-200 hover:text-blue-800-rounded-px5 p-2">
               <MdOutlineUpdate className="mr-2" />
-              <Link href="/">Update Request</Link>
+              <Link href="/URequest">Update Request</Link>
             </li>
 
             <li className="flex justify-start items-center hover:bg-blue-200 hover:text-blue-800-rounded-px2 p-2">
               <GrValidate className="mr-2" />
-              <Link href="/">Request Validation</Link>
+              <Link href="/Validation">Request Validation</Link>
             </li>
 
             <li className="flex justify-start items-center hover:bg-blue-200 hover:text-blue-800-rounded-px2 p-2">
@@ -63,7 +63,27 @@ const MainLayout = ({ children }) => {
 
             <li className="flex justify-start items-center hover:bg-blue-200 hover:text-blue-800-rounded-px5 p-2">
               <BsDatabaseFillLock className="mr-2" />
-              <Link href="/">DB</Link>
+              <Link href="/Admin">DB</Link>
+            </li>
+
+            <li className="flex justify-start items-center hover:bg-blue-200 hover:text-blue-800-rounded-px5 p-2">
+              <BsDatabaseFillLock className="mr-2" />
+              <Link href="/Category">Category</Link>
+            </li>
+
+            <li className="flex justify-start items-center hover:bg-blue-200 hover:text-blue-800-rounded-px5 p-2">
+              <BsDatabaseFillLock className="mr-2" />
+              <Link href="/Suppliers">Suppliers</Link>
+            </li>
+
+            <li className="flex justify-start items-center hover:bg-blue-200 hover:text-blue-800-rounded-px5 p-2">
+              <MdOutlineUpdate className="mr-2" />
+              <Link href="/RequestsG">Admin Requests </Link>
+            </li>
+
+            <li className="flex justify-start items-center hover:bg-blue-200 hover:text-blue-800-rounded-px5 p-2">
+              <MdOutlineUpdate className="mr-2" />
+              <Link href="/Advisor">Advise </Link>
             </li>
           </ul>
         </aside>
