@@ -2,6 +2,7 @@
 import "./globals.css";
 import MainLayout from "@/components/MainLayout";
 import MenuContextProvider from "@/context/MenuContext";
+import LoginPage from "./Login/page";
 
 export const metadata = {
   title: "HUNTERRM",
@@ -11,21 +12,19 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body>
-      
-      <MenuContextProvider>
+      <body/>
+     {/*  <LoginPage>
+
+      </LoginPage>  */}
+     <MenuContextProvider>
      
-      <MainLayout>
-          {children}
-        </MainLayout>
+     <MainLayout>
+         {children}
+       </MainLayout>
 
 
-      </MenuContextProvider>
-        
-        
-       
-
-      </body>
+     </MenuContextProvider> 
     </html>
+    
   );
 }

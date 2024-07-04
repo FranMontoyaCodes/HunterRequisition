@@ -67,7 +67,7 @@ const MainLayout = ({ children }) => {
             </li>
           </ul>
         </aside>
-        <main className="flex-1">{children}</main>
+       
       </div>
     </div>
   );

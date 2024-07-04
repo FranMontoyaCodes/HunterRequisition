@@ -1,6 +1,7 @@
 "use client"
 import React, { useState } from 'react';
 import Link from 'next/link'; // or 'react-router-dom' depending on your routing library
+import page from '../page';
 
 const LoginPage = () => {
   const [email, setEmail] = useState('');
@@ -19,7 +20,7 @@ const LoginPage = () => {
       </div>
       <div className="w-1/2 flex flex-col justify-center items-center bg-white">
         <h1 className="text-3xl font-bold mb-6">Login</h1>
-        <form onSubmit={handleLogin} className="w-3/4 max-w-md">
+        <form onSubmit={page} className="w-3/4 max-w-md">
           <div className="mb-4">
             <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="email">Email</label>
             <input
